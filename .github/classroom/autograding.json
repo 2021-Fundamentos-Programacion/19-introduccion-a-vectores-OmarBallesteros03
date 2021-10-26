@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Cuenta los números pares que contiene un vector",
+      "setup": "npm install",
+      "run": "npm run test contarPares.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Genera un vector de tamaño N con valores aleatorios",
+      "setup": "",
+      "run": "npm run test generarVector.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Genera un vector con los números impares que contiene otro vector",
+      "setup": "",
+      "run": "npm run test obtenerImpares.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Suma el contenido de dos vectores",
+      "setup": "",
+      "run": "npm run test sumar.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Elimina un número del contenido de un vector",
+      "setup": "",
+      "run": "npm run test eliminarNumero.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
