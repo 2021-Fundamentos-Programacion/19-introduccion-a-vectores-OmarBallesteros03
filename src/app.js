@@ -25,4 +25,15 @@ function generarAleatorio(inicio = 5, fin = 10) {
     return aleatorio;
 }
 
-module.exports = {contarPares, generarVector};
+function obtenerImpares(vector) {
+    let impares = new Array();
+
+    for (let i = 0; i < vector.length; i++) {
+    if (vector[i] % 2 !== 0) {
+        impares.push(vector[i]);
+    }
+}
+    return impares;
+}
+
+module.exports = {contarPares, generarVector, obtenerImpares};
