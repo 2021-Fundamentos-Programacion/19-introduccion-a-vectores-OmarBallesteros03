@@ -47,7 +47,23 @@ function sumar(vector1, vector2) {
     return suma;
 }
 
+function eliminarNumero(vector, numero) {
+    let eliminados = 0;
+    let i = 0;
+
+    while (i < vector.length) {
+        if (vector[i] === numero) {
+            vector.splice(i, 1);
+            eliminados = eliminados + 1;
+        } else {
+            i = i + 1;
+        }
+    }
+    return eliminados;
+}
+
 module.exports = {contarPares, 
     generarVector, 
     obtenerImpares, 
-    sumar};
+    sumar, 
+    eliminarNumero};

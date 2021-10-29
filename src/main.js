@@ -15,3 +15,8 @@ console.log(vector1);
 console.log(vector2);
 
 console.log(app.sumar(vector1, vector2));
+
+vector = app.generarVector(20, 10, 15);
+console.log(vector);
+console.log(app.eliminarNumero(vector, 11));
+console.log(vector);
