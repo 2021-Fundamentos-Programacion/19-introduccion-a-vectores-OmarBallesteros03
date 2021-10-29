@@ -36,4 +36,18 @@ function obtenerImpares(vector) {
     return impares;
 }
 
-module.exports = {contarPares, generarVector, obtenerImpares};
+function sumar(vector1, vector2) {
+    if (vector1.length !== vector2.length) {
+        return -1;
+    }
+    let suma = new Array();
+    for (let i = 0; i < vector1.length; i++) {
+        suma.push(vector1[i] + vector2[i]);
+    }
+    return suma;
+}
+
+module.exports = {contarPares, 
+    generarVector, 
+    obtenerImpares, 
+    sumar};
